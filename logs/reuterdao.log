@@ -1,0 +1,19 @@
+[INFO ] 2016-06-07 10:42:24.965 [reuterdao] [main      ] - 
+[INFO ] 2016-06-07 10:42:24.966 [reuterdao] [main      ] - select t_spread成功
+[INFO ] 2016-06-07 10:42:24.967 [reuterdao] [main      ] - 
+[INFO ] 2016-06-07 10:42:24.967 [reuterdao] [main      ] - select t_spread成功，关闭连接
+[INFO ] 2016-06-07 10:42:34.969 [reuterdao] [main      ] - 
+[INFO ] 2016-06-07 10:42:34.970 [reuterdao] [main      ] - select t_spread成功，关闭连接
+[INFO ] 2016-06-07 10:42:44.971 [reuterdao] [main      ] - 
+[INFO ] 2016-06-07 10:42:44.971 [reuterdao] [main      ] - select t_spread成功，关闭连接
+[INFO ] 2016-06-07 10:42:54.972 [reuterdao] [main      ] - 
+[INFO ] 2016-06-07 10:42:54.973 [reuterdao] [main      ] - select t_spread成功，关闭连接
+[INFO ] 2016-06-07 10:42:54.974 [reuterdao] [main      ] - 
+[INFO ] 2016-06-07 10:42:54.975 [reuterdao] [main      ] - select t_spread成功，关闭连接
+[ERROR] 2016-06-07 10:42:55.267 [reuterdao] [main      ] - select t_spread失败
+java.lang.NullPointerException
+	at com.puxtech.reuters.db.DBConnUitl.GetConnection(DBConnUitl.java:33)
+	at com.puxtech.reuters.db.ReuterDao.queryT_contractoffset(ReuterDao.java:257)
+	at com.puxtech.reuters.offset.Singleton.refreshT_contractOffset(Singleton.java:66)
+	at com.puxtech.reuters.rfa.RelayServer.RelayServer.main(RelayServer.java:166)
+[INFO ] 2016-06-07 10:42:55.269 [reuterdao] [main      ] - select t_spread成功，关闭连接

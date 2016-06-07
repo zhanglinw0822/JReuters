@@ -1,0 +1,1 @@
+java -jar ./configLoader/config_loader.jar LoadPrefsConfig -file ./configLoader/sessionConfig.xml

@@ -1,0 +1,491 @@
+[INFO ] 2016-06-07 10:42:55.265 [Bloomberg] [Thread-2  ] - authOptions = AuthenticationMode=APPLICATION_ONLY;ApplicationAuthenticationType=APPNAME_AND_KEY;ApplicationName=SXBAR:SHAANXI THE BELT AND ROAD
+[INFO ] 2016-06-07 10:42:57.113 [Bloomberg] [Thread-2  ] - TokenGenerationSuccess = {
+    token = "-v4;Zjw5pGjRIaqVT9YZ8Sqo5YerdhUz6vGNKOZquFKn0y/XqwFEnKVVXe1pILVCdIEnYFzjHsz37h0D
+VqqTW5rLWx2n76Xjpj4QsR46rlofsCM=;Ada+k4V6wVoPEiuAprttz2C6u0OTVLnyMSXm0qcXobZSEGVn3HKaVYv/ua3D427Z9ghMYKnn8M8=;"
+}
+
+[INFO ] 2016-06-07 10:42:58.387 [Bloomberg] [Thread-2  ] - AuthorizationSuccess = {
+}
+
+[INFO ] 2016-06-07 10:43:06.094 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.094 [Bloomberg] [Thread-2  ] - correlationID=null,messageType=SessionConnectionUp
+[INFO ] 2016-06-07 10:43:06.094 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.094 [Bloomberg] [Thread-2  ] - correlationID=null,messageType=SessionConnectionUp
+[INFO ] 2016-06-07 10:43:06.094 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.095 [Bloomberg] [Thread-2  ] - correlationID=null,messageType=SessionStarted
+[INFO ] 2016-06-07 10:43:06.095 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.095 [Bloomberg] [Thread-2  ] - correlationID=Internal: 3,messageType=ServiceOpened
+[INFO ] 2016-06-07 10:43:06.095 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.095 [Bloomberg] [Thread-2  ] - correlationID=Internal: 5,messageType=ServiceOpened
+[INFO ] 2016-06-07 10:43:06.675 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.675 [Bloomberg] [Thread-2  ] - correlationID=User: com.bloomberglp.blpapi.impl.aT@56ab436d,messageType=SubscriptionStarted
+[INFO ] 2016-06-07 10:43:06.675 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.675 [Bloomberg] [Thread-2  ] - correlationID=User: com.bloomberglp.blpapi.impl.aT@7a34cdfc,messageType=SubscriptionStarted
+[INFO ] 2016-06-07 10:43:06.679 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    BID = 16.4318
+    ASK = 16.4408
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INITPAINT
+}
+
+[INFO ] 2016-06-07 10:43:06.679 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INITPAINT
+}
+
+[INFO ] 2016-06-07 10:43:06.683 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.683 [Bloomberg] [Thread-2  ] - correlationID=User: com.bloomberglp.blpapi.impl.aT@1d05a248,messageType=SubscriptionStarted
+[INFO ] 2016-06-07 10:43:06.688 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.688 [Bloomberg] [Thread-2  ] - correlationID=User: com.bloomberglp.blpapi.impl.aT@5d7d58f,messageType=SubscriptionStarted
+[INFO ] 2016-06-07 10:43:06.689 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.689 [Bloomberg] [Thread-2  ] - correlationID=User: com.bloomberglp.blpapi.impl.aT@45135cd9,messageType=SubscriptionStarted
+[INFO ] 2016-06-07 10:43:06.698 [Bloomberg] [Thread-2  ] - get a Other Event! 
+
+[INFO ] 2016-06-07 10:43:06.698 [Bloomberg] [Thread-2  ] - correlationID=User: com.bloomberglp.blpapi.impl.aT@5ce133da,messageType=SubscriptionStarted
+[INFO ] 2016-06-07 10:43:06.699 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 4672.0
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INITPAINT
+}
+
+[INFO ] 2016-06-07 10:43:06.731 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.3
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INITPAINT
+}
+
+[INFO ] 2016-06-07 10:43:06.733 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 993.15
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INITPAINT
+}
+
+[INFO ] 2016-06-07 10:43:06.733 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 131.7
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INITPAINT
+}
+
+[INFO ] 2016-06-07 10:43:13.758 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.54
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:13.760 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INTRADAY
+}
+
+[INFO ] 2016-06-07 10:43:13.761 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INTRADAY
+}
+
+[INFO ] 2016-06-07 10:43:13.761 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INTRADAY
+}
+
+[INFO ] 2016-06-07 10:43:13.761 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INTRADAY
+}
+
+[INFO ] 2016-06-07 10:43:13.762 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INTRADAY
+}
+
+[INFO ] 2016-06-07 10:43:13.762 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INTRADAY
+}
+
+[INFO ] 2016-06-07 10:43:13.763 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INTRADAY
+}
+
+[INFO ] 2016-06-07 10:43:13.763 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    MKTDATA_EVENT_TYPE = SUMMARY
+    MKTDATA_EVENT_SUBTYPE = INTRADAY
+}
+
+[INFO ] 2016-06-07 10:43:13.985 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:14.615 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    BID = 16.4333
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = BID
+}
+
+[INFO ] 2016-06-07 10:43:14.616 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    ASK = 16.4424
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = ASK
+}
+
+[INFO ] 2016-06-07 10:43:14.617 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    BID = 16.4333
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = BID
+}
+
+[INFO ] 2016-06-07 10:43:14.618 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    ASK = 16.4423
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = ASK
+}
+
+[INFO ] 2016-06-07 10:43:21.666 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.3
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:21.666 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.3
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:21.700 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.29
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:21.701 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.28
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:22.279 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.28
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:22.280 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.28
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:32.837 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:35.087 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    BID = 16.432
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = BID
+}
+
+[INFO ] 2016-06-07 10:43:35.087 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    ASK = 16.439
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = ASK
+}
+
+[INFO ] 2016-06-07 10:43:40.710 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:41.358 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:41.737 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.26
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:41.738 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.25
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:42.009 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:42.374 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.25
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:42.375 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.25
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:47.307 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:51.872 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:43:54.599 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    BID = 16.432
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = BID
+}
+
+[INFO ] 2016-06-07 10:43:54.600 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    ASK = 16.439
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = ASK
+}
+
+[INFO ] 2016-06-07 10:44:00.871 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:01.684 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.25
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:01.684 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.25
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:01.685 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.24
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:01.685 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.23
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:02.313 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.23
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:02.313 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 555.23
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:05.696 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    BID = 16.432
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = BID
+}
+
+[INFO ] 2016-06-07 10:44:05.697 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    ASK = 16.439
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = ASK
+}
+
+[INFO ] 2016-06-07 10:44:14.606 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    BID = 16.432
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = BID
+}
+
+[INFO ] 2016-06-07 10:44:14.607 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    ASK = 16.439
+    MKTDATA_EVENT_TYPE = QUOTE
+    MKTDATA_EVENT_SUBTYPE = ASK
+}
+
+[INFO ] 2016-06-07 10:44:15.399 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:15.452 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:15.823 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:16.047 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:16.248 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:16.453 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:16.454 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:17.705 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:17.706 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:17.706 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:17.707 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:17.708 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:18.169 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:18.375 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:19.354 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:19.544 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:19.544 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:19.553 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:19.588 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:20.337 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:20.453 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.56
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:20.490 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:20.491 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:20.497 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+
+[INFO ] 2016-06-07 10:44:20.627 [Bloomberg] [Thread-2  ] - MarketDataEvents = {
+    LAST_PRICE = 49.55
+    MKTDATA_EVENT_TYPE = TRADE
+    MKTDATA_EVENT_SUBTYPE = NEW
+}
+

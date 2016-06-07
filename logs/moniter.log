@@ -1,0 +1,38 @@
+[INFO ] 2016-06-07 10:42:24.741 [moniter] [main      ] - logger (DAGP) configure finish!
+[INFO ] 2016-06-07 10:42:24.745 [moniter] [main      ] - logger (XPT) configure finish!
+[INFO ] 2016-06-07 10:42:24.751 [moniter] [main      ] - logger (XPD) configure finish!
+[INFO ] 2016-06-07 10:42:24.755 [moniter] [main      ] - logger (DCU) configure finish!
+[INFO ] 2016-06-07 10:42:24.759 [moniter] [main      ] - logger (KC) configure finish!
+[INFO ] 2016-06-07 10:42:24.763 [moniter] [main      ] - logger (WTI) configure finish!
+[INFO ] 2016-06-07 10:42:24.765 [moniter] [main      ] - logger (Bloomberg1) configure finish!
+[INFO ] 2016-06-07 10:42:55.264 [moniter] [Thread-2  ] - init Count = 1
+[INFO ] 2016-06-07 10:42:55.264 [moniter] [Thread-2  ] - createSession Count = 1
+[INFO ] 2016-06-07 10:42:55.266 [moniter] [Thread-3  ] - 服务监控开始...
+[INFO ] 2016-06-07 10:42:55.266 [moniter] [Thread-3  ] - 当前连接数：0
+[INFO ] 2016-06-07 10:42:56.823 [moniter] [Thread-2  ] - auth Count = 1
+[INFO ] 2016-06-07 10:42:58.387 [moniter] [Thread-2  ] - Connected successfully.
+[INFO ] 2016-06-07 10:43:06.082 [moniter] [Thread-2  ] - subscribe Count = 1
+[INFO ] 2016-06-07 10:43:15.266 [moniter] [Thread-3  ] - 当前连接数：0
+[INFO ] 2016-06-07 10:43:35.266 [moniter] [Thread-3  ] - 当前连接数：0
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 当前连接数：1
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - *******************连接 1开始*******************
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 当前连接状态： 正常
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 客户端地址： /127.0.0.1:65051
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 当前传输状态： 正常
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 当前发送队列消息数：0
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 当前发送队列大小：0
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 连接建立时间：1465267429348
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 最近一次IO时间：1465267429348
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - 最近一次空闲时间：1465267429348
+[INFO ] 2016-06-07 10:43:55.266 [moniter] [Thread-3  ] - *******************连接 0结束*******************
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 当前连接数：1
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - *******************连接 1开始*******************
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 当前连接状态： 正常
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 客户端地址： /127.0.0.1:65051
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 当前传输状态： 正常
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 当前发送队列消息数：0
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 当前发送队列大小：0
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 连接建立时间：1465267429348
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 最近一次IO时间：1465267452073
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - 最近一次空闲时间：1465267429348
+[INFO ] 2016-06-07 10:44:15.266 [moniter] [Thread-3  ] - *******************连接 0结束*******************

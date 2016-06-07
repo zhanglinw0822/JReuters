@@ -1,0 +1,67 @@
+[INFO ] 2016-06-07 10:42:24.966 [offset] [main      ] - loadDiffPeriod
+[INFO ] 2016-06-07 10:42:24.967 [offset] [main      ] - refreshDiffPeriod
+[WARN ] 2016-06-07 10:42:24.967 [offset] [main      ] - 没有获得点差衰减周期,10秒后重试
+[WARN ] 2016-06-07 10:42:34.971 [offset] [main      ] - 没有获得点差衰减周期,10秒后重试
+[WARN ] 2016-06-07 10:42:44.971 [offset] [main      ] - 没有获得点差衰减周期,10秒后重试
+[ERROR] 2016-06-07 10:42:54.973 [offset] [main      ] - 没有获得点差衰减周期,error
+[INFO ] 2016-06-07 10:42:55.269 [offset] [main      ] - 刷新价差对象成功：0
+[INFO ] 2016-06-07 10:43:13.762 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:13.987 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:14.619 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:14.620 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:14.620 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:21.668 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:21.668 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:21.701 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:21.702 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:22.281 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:22.281 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:32.839 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:35.089 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:35.089 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:40.713 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:41.362 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:41.740 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:41.741 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:42.011 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:42.376 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:42.377 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:47.309 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:51.873 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:54.602 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:43:54.602 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:00.874 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:01.686 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:01.686 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:01.686 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:01.687 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:02.315 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:02.315 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:05.699 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:05.700 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:14.608 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:14.608 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:15.401 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:15.454 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:15.825 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:16.049 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:16.250 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:16.456 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:16.457 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:17.707 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:17.708 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:17.709 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:17.710 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:17.711 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:18.179 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:18.377 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:19.355 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:19.555 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:19.555 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:19.556 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:19.590 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:20.338 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:20.456 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:20.493 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:20.494 [offset] [pool-1-thread-2] - optimalContractOffset为空
+[INFO ] 2016-06-07 10:44:20.501 [offset] [pool-1-thread-2] - optimalContractOffset为空

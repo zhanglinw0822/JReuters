@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="JReuters_DC/bin/com/puxtech/dc/common"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/disruptor-2.10.3.jar" sourcepath="libs/disruptor-2.10.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/JReuters_DC/libs/disruptor-2.10.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/log4j-1.2.13.jar" sourcepath="libs/log4j-1.2.13-sources.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/mina/mina-core-2.0.7.jar" sourcepath="C:/Users/zhanglin/.m2/repository/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-log4j12.jar"/>
+	<classpathentry kind="lib" path="libs/quartz-2.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/quartz-jobs-2.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="libs/bloomberg/blpapi3.jar"/>
+	<classpathentry kind="lib" path="libs/common/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/common/commons-lang.jar"/>
+	<classpathentry kind="lib" path="libs/common/commons-logging.jar"/>
+	<classpathentry kind="lib" path="libs/common/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="libs/reuters/rfa.jar"/>
+	<classpathentry kind="lib" path="libs/reuters/iFXAPI2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

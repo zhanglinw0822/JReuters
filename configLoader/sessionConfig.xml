@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="com">
+      <map/>
+      <node name="reuters">
+        <map/>
+        <node name="rfa">
+          <map/>
+          <node name="SSLNamespace">
+            <map/>
+            <node name="Connections">
+              <map/>
+              <node name="pageSSLConn">
+                <map>
+                  <entry key="connectionType" value="SSL"/>
+                  <entry key="portNumber" value="8101"/>
+                  <entry key="dacs_CbeEnabled" value="false"/>
+                  <entry key="dacs_GenerateLocks" value="false"/>
+                  <entry key="dacs_SbePubEnabled" value="false"/>
+                  <entry key="dacs_SbeSubEnabled" value="false"/>
+                  <entry key="downloadDataDict" value="true"/>
+                  <entry key="serverList" value="10.150.28.55"/>
+                  <entry key="userName" value="szrmds4"/>
+                  <entry key="downloadFullMarketFeedDataDict" value="true"/>
+                  <entry key="enumTypeFile" value="F:/enumtype.def"/>
+                  <entry key="masterFidFile" value="F:/appendix_a"/>
+                </map>
+              </node>
+            </node>
+            <node name="Sessions">
+              <map/>
+              <node name="pageSSLSession">
+                <map>
+                  <entry key="connectionList" value="SSLNamespace::pageSSLConn"/>
+                </map>
+              </node>
+            </node>
+          </node>
+          <node name="_System">
+            <map/>
+            <node name="DataDictionaries">
+              <map>
+                <entry key="autoDictionaryDownload" value="true"/>
+              </map>
+            </node>
+            <node name="EventQueue">
+              <map>
+                <entry key="batchSize" value="100"/>
+              </map>
+            </node>
+            <node name="StandbyLists">
+              <map/>
+            </node>
+            <node name="tools">
+              <map/>
+              <node name="config">
+                <map/>
+                <node name="editor">
+                  <map>
+                    <entry key="validationMode" value="Full"/>
+                  </map>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node name="myNamespace">
+            <map/>
+            <node name="Connections">
+              <map/>
+              <node name="ommViewAppCon">
+                <map>
+                  <entry key="connectionType" value="RSSL"/>
+                  <entry key="portNumber" value="14002"/>
+                  <entry key="serverList" value="10.150.28.55"/>
+                  <entry key="appUserId" value="szrmds1"/>
+                </map>
+              </node>
+            </node>
+            <node name="Sessions">
+              <map/>
+              <node name="myOMMViewSess">
+                <map>
+                  <entry key="connectionList" value="ommViewAppCon"/>
+                </map>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

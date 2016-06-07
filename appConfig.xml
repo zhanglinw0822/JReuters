@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<QuoteDispatch> 
+  <Config> 
+    <GlobalConfig> 
+      <!--交易系统格式 0|7000|日期|时间（毫秒）|001|DAG|newprice|bidprice|askprice 格式化字符串 
+				0|7000|%Date%|%Time%|%quoteID%|%COI%|%newPr%|%bidPr%|%askPr% 国际行情格式 0|6000|日期|时间（毫秒）|001|DAG|newprice|bidprice|askprice|成交量|昨收|昨结|开盘|最高|最低|持仓量|仓差|幅度|振幅|涨跌| 
+				格式化字符串 0|6000|%Date%|%Time%|%quoteID%|%COI%|%newPr%|%bidPr%|%askPr%|%TrQty%|%yClose%|%ySettle%|%Open%|%High%|%Low%|%hold%|%hDiff%|%range%|%amp%|%change%| -->  
+      <LogHead>商品代码,接入商代码,时间,ASK,BID,价格,上一口有效价格,涨跌幅,是否被过滤</LogHead>  
+      <QuoteFormat>0|63|6000||3|%quoteID%|%COI%|100|23|-1|%Date%|%Time%|%newPr%|%bidPr%|%newPr%||||||</QuoteFormat>  
+      <SpreadFormat>0|6001|%COI%|%date%|%OldCode%|%NewCode%|%Spread%|</SpreadFormat>  
+      <logFlag>1</logFlag>  
+      <!-- 1：交易系统格式，2：国际行情格式 -->  
+      <LocalPort>50001</LocalPort>  
+      <!-- 监听端口，交易系统行情接收服务从此端口获得过滤后的国际行情 -->  
+      <SourcePath/>  
+      <cronExpress>0 41 17 * * ?</cronExpress>  
+      <QuoteSource>Bloomberg1</QuoteSource>  
+      <!-- 价差衰减周期 --> 
+    </GlobalConfig>  
+    <QuoteSource name="Bloomberg1"> 
+      <Addr>123.56.97.25</Addr>  
+      <Port>8194</Port>  
+      <Addr2>123.56.97.25</Addr2>  
+      <Port2>8194</Port2>  
+      <AuthOption>APPLICATION</AuthOption>  
+      <AuthName>SXBAR:SHAANXI THE BELT AND ROAD</AuthName>  
+      <Consumer>com.puxtech.reuters.rfa.Consumer.BloombergConsumer</Consumer>  
+      <LoggerName>Bloomberg1</LoggerName> 
+    </QuoteSource>  
+    <Contracts> 
+      <Contract> 
+        <SourceConfig> 
+          <BloombergCode>XAG BGN Curncy</BloombergCode> 
+        </SourceConfig>  
+        <SourceName>Bloomberg1</SourceName>  
+        <ExchangeCode>DAGP</ExchangeCode>  
+        <PriceAlgorithm scale="3">2</PriceAlgorithm>  
+        <Filter>DAGPFilter</Filter> 
+      </Contract>  
+      <Contract> 
+        <SourceConfig> 
+          <BloombergCode>XPT BGN Curncy</BloombergCode> 
+        </SourceConfig>  
+        <SourceName>Bloomberg1</SourceName>  
+        <ExchangeCode>XPT</ExchangeCode>  
+        <PriceAlgorithm>1</PriceAlgorithm>  
+        <Filter>DefaultFilter</Filter> 
+      </Contract>  
+      <Contract> 
+        <SourceConfig> 
+          <BloombergCode>XPD BGN Curncy</BloombergCode> 
+        </SourceConfig>  
+        <SourceName>Bloomberg1</SourceName>  
+        <ExchangeCode>XPD</ExchangeCode>  
+        <PriceAlgorithm>1</PriceAlgorithm>  
+        <Filter>DefaultFilter</Filter> 
+      </Contract>  
+      <Contract> 
+        <SourceConfig> 
+          <BloombergCode>LMCADS03 LMES Comdty</BloombergCode> 
+        </SourceConfig>  
+        <SourceName>Bloomberg1</SourceName>  
+        <ExchangeCode>DCU</ExchangeCode>  
+        <PriceAlgorithm>1</PriceAlgorithm>  
+        <Filter>DefaultFilter</Filter> 
+      </Contract>  
+      <Contract> 
+        <SourceConfig> 
+          <BloombergCode>KCN6 COMB Comdty</BloombergCode> 
+        </SourceConfig>  
+        <SourceName>Bloomberg1</SourceName>  
+        <ExchangeCode>KC</ExchangeCode>  
+        <PriceAlgorithm>1</PriceAlgorithm>  
+        <Filter>DefaultFilter</Filter> 
+      </Contract>  
+      <Contract> 
+        <SourceConfig> 
+          <BloombergCode>CLN6 COMB Comdty</BloombergCode> 
+        </SourceConfig>  
+        <SourceName>Bloomberg1</SourceName>  
+        <ExchangeCode>WTI</ExchangeCode>  
+        <PriceAlgorithm>1</PriceAlgorithm>  
+        <Filter>WTIFilter</Filter> 
+      </Contract> 
+    </Contracts>  
+    <Filters> 
+      <!-- 过滤器配置，根据name区分 -->  
+      <Filter name="DefaultFilter" class="com.puxtech.reuters.rfa.Filter.Filter"> 
+        <Strategys> 
+          <Strategy id="ZeroStrategy" class="com.puxtech.reuters.rfa.Filter.ZeroQuoteFilterStrategy" Enable="true"/>  
+          <!-- 0价过滤 -->  
+          <Strategy id="EqualStrategy" class="com.puxtech.reuters.rfa.Filter.EqualQuoteFilterStrategy" Enable="true"/>  
+          <!-- 等价过滤 -->  
+          <!-- 阶梯价过滤，unlimitThreshold：永久过滤阀值，2%以上一直过滤 -->  
+          <Strategy id="disparityStrategy" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteFilterStrategy" Enable="true"> 
+            <Rules> 
+              <!-- 过滤规则配置，id必须唯一 -->  
+              <Rule id="role1" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <!-- 过滤条件百分比 -->  
+                <Threshold>0.1%</Threshold>  
+                <!--Operator配置运算符：GREATERTHAN:大于,GREATEROREQUAL:大于等于,EQUAL:等于,LESSOREQUAL:小于等于,LESSTHAN:小于, -->  
+                <Operator>GREATEROREQUAL</Operator>  
+                <!-- 取第几口价，即过滤FilterCount-1口价 -->  
+                <FilterCount>3</FilterCount> 
+              </Rule>  
+              <Rule id="role2" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>0.2%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>4</FilterCount> 
+              </Rule>  
+              <Rule id="role3" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>0.5%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>4</FilterCount> 
+              </Rule>  
+              <Rule id="role4" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>1%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>5</FilterCount> 
+              </Rule> 
+            </Rules> 
+          </Strategy> 
+        </Strategys> 
+      </Filter>  
+      <Filter name="DAGPFilter" class="com.puxtech.reuters.rfa.Filter.Filter"> 
+        <Strategys> 
+          <Strategy id="ZeroStrategy" class="com.puxtech.reuters.rfa.Filter.ZeroQuoteFilterStrategy" Enable="true"/>  
+          <!-- 0价过滤 -->  
+          <Strategy id="EqualStrategy" class="com.puxtech.reuters.rfa.Filter.EqualQuoteFilterStrategy" Enable="true"/>  
+          <!-- 等价过滤 -->  
+          <!-- 阶梯价过滤，unlimitThreshold：永久过滤阀值，2%以上一直过滤 -->  
+          <Strategy id="disparityStrategy" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteFilterStrategy" Enable="true" unlimitThreshold="50%"> 
+            <Rules> 
+              <!-- 过滤规则配置，id必须唯一 -->  
+              <Rule id="role1" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>2%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>1</FilterCount> 
+              </Rule>  
+              <Rule id="role2" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>5%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>4</FilterCount> 
+              </Rule> 
+            </Rules> 
+          </Strategy> 
+        </Strategys> 
+      </Filter>  
+      <Filter name="WTIFilter" class="com.puxtech.reuters.rfa.Filter.Filter"> 
+        <Strategys> 
+          <Strategy id="ZeroStrategy" class="com.puxtech.reuters.rfa.Filter.ZeroQuoteFilterStrategy" Enable="true"/>  
+          <!-- 0价过滤 -->  
+          <Strategy id="EqualStrategy" class="com.puxtech.reuters.rfa.Filter.EqualQuoteFilterStrategy" Enable="true"/>  
+          <!-- 等价过滤 -->  
+          <!-- 阶梯价过滤，unlimitThreshold：永久过滤阀值，2%以上一直过滤 -->  
+          <Strategy id="disparityStrategy" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteFilterStrategy" Enable="true"> 
+            <Rules> 
+              <!-- 过滤规则配置，id必须唯一 -->  
+              <Rule id="role1" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>0.1%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>2</FilterCount> 
+              </Rule>  
+              <Rule id="role2" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>0.2%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>3</FilterCount> 
+              </Rule>  
+              <Rule id="role3" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>0.5%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>4</FilterCount> 
+              </Rule>  
+              <Rule id="role4" class="com.puxtech.reuters.rfa.Filter.DisparityQuoteRule"> 
+                <Threshold>1%</Threshold>  
+                <Operator>GREATEROREQUAL</Operator>  
+                <FilterCount>5</FilterCount> 
+              </Rule> 
+            </Rules> 
+          </Strategy> 
+        </Strategys> 
+      </Filter> 
+    </Filters> 
+  </Config> 
+</QuoteDispatch>

@@ -1,0 +1,6 @@
+[ERROR] 2016-06-07 10:42:55.267 [reuterdao] [main      ] - select t_spread ß∞‹
+java.lang.NullPointerException
+	at com.puxtech.reuters.db.DBConnUitl.GetConnection(DBConnUitl.java:33)
+	at com.puxtech.reuters.db.ReuterDao.queryT_contractoffset(ReuterDao.java:257)
+	at com.puxtech.reuters.offset.Singleton.refreshT_contractOffset(Singleton.java:66)
+	at com.puxtech.reuters.rfa.RelayServer.RelayServer.main(RelayServer.java:166)
