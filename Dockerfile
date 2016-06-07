@@ -31,8 +31,8 @@ RUN mv /tmp/apache-tomcat-7.0.8/ /opt/tomcat7/
 ENV CATALINA_HOME /opt/tomcat7  
 ENV PATH $PATH:$CATALINA_HOME/bin  
   
-ADD tomcat7.sh /etc/init.d/tomcat7  
-RUN chmod 755 /etc/init.d/tomcat7  
+#ADD tomcat7.sh /etc/init.d/tomcat7  
+#RUN chmod 755 /etc/init.d/tomcat7  
 
 ADD JReuters/ /opt/app/
 RUN unzip /opt/app/JReuters*.zip -d /opt/app/JReuters
