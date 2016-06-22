@@ -1,17 +1,17 @@
 # Pull base image  
-FROM ubuntu
+FROM 192.168.1.112:5000/centos:6.8
   
 MAINTAINER zhanglin "zhanglin@puxtech.com"  
   
 # update source  
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe"> /etc/apt/sources.list  
-RUN apt-get update  
+#RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe"> /etc/apt/sources.list  
+#RUN yum update  
 
 # Install zip  
-RUN apt-get -y install zip
+RUN yum -y install zip
 
 # Install curl  
-RUN apt-get -y install curl  
+RUN yum -y install curl  
   
 # Install JDK 8  
 RUN cd /tmp &&  curl -L 'http://download.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz' -H 'Cookie: oraclelicense=accept-securebackup-cookie; gpw_e24=Dockerfile' | tar -xz  
